@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DESAFIO | DOM</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <h1>Register & login</h1>
+    <hr>
+        <div class="display__register card__register">
+        <h2>Register</h2>
+            <label for="crearNombre">Crear usuario</label>
+            <input type="text" id="crearNombre">
+            <br><br>
+            <label for="crearPassword">Crear contraseña</label>
+            <input type="password" id="crearPassword">
+            <br><br>
+            <button onclick="usuario().register()">Enviar</button>
+        </div>
+        <div class="infoRegister"></div>
+        <div class="display__login">
+        <h2>Login</h2>
+            <label for="nombre">Usuario</label>
+            <input type="text" id="nombre">
+            <br><br>
+            <label for="password">Contraseña</label>
+            <input type="password" id="password">
+            <br><br><br>
+            <button onclick="usuario().login()">Enviar</button>
+            <div class="infoLogin"></div>
+        </div>
+        <script src="./js/main.js"></script>
+</body>
+</html>

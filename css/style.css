@@ -1,0 +1,22 @@
+* {
+    font-family: sans-serif;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.display__login {
+    display: none;
+}
+
+.card__register {
+    font-size: 20px;
+}
+
+button {
+    background-color: #ddd;
+    border-radius: 20%;
+    padding: 10px;
+}
